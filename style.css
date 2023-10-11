@@ -1,0 +1,140 @@
+body,
+html {
+  padding: 0;
+  background-color: #dadddf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.cardContainer {
+  width: 500px;
+}
+
+.myCard {
+  /* background-color: #fdfefe; */
+  background-color: #fdfefe;
+  -webkit-box-shadow: 9px 10px 26px -14px rgba(54, 50, 54, 0.9);
+  -moz-box-shadow: 9px 10px 26px -14px rgba(54, 50, 54, 0.9);
+  box-shadow: 9px 10px 26px -14px rgba(54, 50, 54, 0.9);
+  width: 500px;
+  height: 375px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.myCardHeader {
+  background-color: #514551;
+  width: 100%;
+  height: 50px;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myCardHeaderTitle {
+  font-weight: 600;
+  color: azure;
+}
+
+.myCardContent {
+  display: flex;
+  flex-direction: column;
+  width: 89%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.mainTitle {
+  color: #3d3f3e;
+  font-weight: 500;
+  font-size: 2rem;
+  padding-top: 20px;
+
+  padding-bottom: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.subTitle {
+  text-align: left;
+  font-weight: 400;
+
+  padding-top: 7px;
+}
+
+.colorSelectorContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.colorSelector {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.colorSelectorOne {
+  background-color: #333333;
+}
+
+.colorSelectorTwo {
+  background-color: #f2f2f2;
+}
+
+.colorSelectorThree {
+  background-color: #c9f66f;
+}
+
+.active {
+  border: 3px solid rgb(142, 142, 247);
+}
+
+.addAndDecrease {
+  border: 2px solid grey;
+  border-radius: 7px;
+  padding: 5px;
+  width: 70px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 7px;
+}
+
+.optionsSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.decrementButton {
+  cursor: pointer;
+}
+
+.incrementButton {
+  cursor: pointer;
+}

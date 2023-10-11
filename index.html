@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="cardContainer">
+        <div class="myCard">
+            <div class="myCardHeader">
+                <span class="myCardHeaderTitle">
+                    <p>H & M - Buy 3 get 40% Discount</p>
+                </span>
+            </div>
+            <div class="myCardContent">
+                <div class="mainTitle">
+                    <p>
+                        Regular Fit Oxford Shirt
+                    </p>
+
+                </div>
+                <div class="subTitle">
+                    <p>
+                        H&M, men shirt
+                    </p>
+                </div>
+                <div class="optionsSection">
+                    <div class="colorSelectorContainer">
+                        <div class="colorSelector colorSelectorOne" onclick="handleChangeColor(event)"></div>
+                        <div class="colorSelector colorSelectorTwo" onclick="handleChangeColor(event)"></div>
+                        <div class="colorSelector colorSelectorThree" onclick="handleChangeColor(event)"></div>
+                    </div>
+                    <div class="addAndDecrease">
+                        <div class="decrementButton">
+                            <i class="material-icons" id="decrement">remove</i>
+                        </div>
+                        <div id="counter">0</div>
+                        <div class="incrementButton">
+                            <i class="material-icons" id="increment">add</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
