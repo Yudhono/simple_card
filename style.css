@@ -129,6 +129,8 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .decrementButton {
@@ -136,5 +138,64 @@ p {
 }
 
 .incrementButton {
+  cursor: pointer;
+}
+
+.sizeSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.sizeSelect {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sizeItem {
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid gray;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 27px;
+  padding-bottom: 20px;
+}
+
+.buyButton {
+  border-radius: 11px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  background-color: #c9f66f;
+  cursor: pointer;
+}
+
+.finalPrice {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.sizeGuide {
+  text-decoration: underline;
   cursor: pointer;
 }
