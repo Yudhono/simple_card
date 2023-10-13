@@ -9,6 +9,17 @@ const handleChangeColor = (e) => {
   e.currentTarget.classList.add("active");
 };
 
+const handleChangeSize = (e) => {
+  // Remove 'selected' class from all colorSelector items
+  var elements = document.getElementsByClassName("sizeItem");
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].classList.remove("selected");
+  }
+
+  // Add 'selected' class to the clicked colorSelector item
+  e.currentTarget.classList.add("selected");
+};
+
 // Get the relevant elements by their IDs
 const decrementButton = document.getElementById("decrement");
 const incrementButton = document.getElementById("increment");
