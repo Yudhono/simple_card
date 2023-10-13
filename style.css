@@ -110,12 +110,6 @@ p {
   border: 3px solid rgb(142, 142, 247);
 }
 
-.selected {
-  border: 2px solid blue;
-  color: #fdfefe;
-  background-color: #333333;
-}
-
 .addAndDecrease {
   border: 2px solid grey;
   border-radius: 7px;
@@ -173,6 +167,12 @@ p {
   padding-bottom: 4px;
   padding-left: 7px;
   padding-right: 7px;
+}
+
+.sizeItem.selected {
+  border: 2px solid #c9f66f;
+  color: #fdfefe;
+  background-color: #333333;
 }
 
 .footerSection {
